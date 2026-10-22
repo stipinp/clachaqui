@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="theme-color" content="#000000">
+<meta name="description" content="Videojuego creado para el IAM Tucumán. Por Pablo Rivero, Stipinpixel.">
+<title>Yukk y la Resistencia Calchaquí</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" href="icons/icon-32.png">
+<link rel="apple-touch-icon" href="icons/icon-256.png">
+<style>
+  html, body {
+    margin: 0; padding: 0; width: 100%; height: 100%;
+    background: #000; overflow: hidden;
+    touch-action: none; overscroll-behavior: none;
+    -webkit-user-select: none; user-select: none;
+    -webkit-touch-callout: none; -webkit-tap-highlight-color: transparent;
+  }
+  #juego {
+    position: absolute; left: 50%; top: 50%;
+    image-rendering: pixelated; image-rendering: crisp-edges;
+    transform-origin: 50% 50%;
+  }
+</style>
+</head>
+<body>
+<canvas id="juego" width="480" height="320"></canvas>
+<script src="atlas.js"></script>
+<script src="game.js"></script>
+</body>
+</html>

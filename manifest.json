@@ -1,0 +1,16 @@
+{
+  "name": "Yukk y la Resistencia Calchaquí",
+  "short_name": "Yukk",
+  "description": "Videojuego creado para el IAM Tucumán, Mayo 2026. Por Pablo Rivero, Stipinpixel.",
+  "start_url": "index.html",
+  "display": "fullscreen",
+  "orientation": "any",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    { "src": "icons/icon-64.png",  "sizes": "64x64",   "type": "image/png" },
+    { "src": "icons/icon-128.png", "sizes": "128x128", "type": "image/png" },
+    { "src": "icons/icon-256.png", "sizes": "160x160", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
